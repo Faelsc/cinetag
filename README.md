@@ -18,20 +18,26 @@
 
 ## 💻 Sobre o projeto
 
-🚀 CineTag
+🚀 CineTag é uma plataforma de compartilhamento de filmes e possibilita a ação tanto de assistir quanto de favoritar um item.
+
+Nesse projeto no navegador, tem uma lista de filmes e, ao clicar no ícone de coração no canto inferior esquerdo de cada cartão, é possível favoritar o item. Acessando a página de "Favoritos" clicando no link do canto superior direito da tela, é possivel ver os filmes que foram favoritados.
+
+Ao clicar na imagem do card, o usuário irá se direcionar para a tela de player, onde conseguirá exibir o vídeo do filme em si.
+
+Para desenvolvermos este projeto, foi utilizado o React com create-react-app através de componentes para gerarmos os elementos da tela. Para estilizarmos estes componentes, foi utilizado o CSS Module e o React-router-dom para rotas e possibilitar mais de uma página no projeto. Também foram necessários conhecimentos sobre Hooks, como useState(), useEffect(), entre outros.
+
+Além disso, foram utilizados contextos, assim, foi criado o contexto de favoritos, e usado Rotas dinâmicas e rotas aninhadas fornecidas pelo React-router-dom.
 
 ---
 
 ## ⚙️ Funcionalidades
 
-- [x] Permite colocar seu nome e saldo;
-- [x] Dispõe uma pequena lista de protudos para a pessoa escolher o que deseja comprar;
-- [x] Faz o calculo do saldo, define forma de pagamento com ou sem juros e realiza a compra de forma automatizada;
-
+- [x] Plataforma que permite compartilhar filmes e vídeos;
+- [x] Dispõe um botão de favoritos e uma página para navegar pelos vídeos favoritos;
 
 ## 🎨 Layout
 
-O layout da aplicação não está disponível em nenhum local, foi criado de forma simples apenas para colocar em prática o ContextAPI e aprender um pouco mais sobre o react. O projeto clone está no github indicado mais abaixo.
+O layout da aplicação não está disponível no Figma: https://www.figma.com/file/UtiurQgr5yH1ClbLzDqVHl/2802---React%3A-Praticando-React-com-Js?type=design&node-id=12-2&mode=design&t=FcNDo5q91iFhtFrW-0
 
 
 ## 📝 Aprendizados
@@ -42,9 +48,9 @@ O layout da aplicação não está disponível em nenhum local, foi criado de fo
 
 ```bash
 # Clone este repositório
-$ git clone 
+$ git clone https://github.com/alura-cursos/cinetag/tree/aula05
 # Acesse a pasta do projeto no seu terminal/cmd
-$ cd  feira
+$ cd  cinetag
 # Instale as dependências
 $ npm install
 # Execute a aplicação em modo de desenvolvimento
