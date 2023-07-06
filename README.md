@@ -13,6 +13,8 @@
 # CINETAG
 
 <h1 align="center">
+    <img alt="CineTag" title="#CineTag" src="./public/readme/001.png" />
+    <img alt="CineTag" title="#Cinetag" src="./public/readme/002.png" />
 </h1>
     
 
